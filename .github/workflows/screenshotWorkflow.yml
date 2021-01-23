@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Screenshot
 
 # Controls when the action will run. 
 on:
@@ -21,6 +21,7 @@ jobs:
       - name: Screenshot request
         uses: fjogeleit/http-request-action@master
         with:
-          url: 'http://134.122.34.252:5000/screenshot?url=https://github.com/sarah-qhacks/testProject&path=client&name=testProject'
+          url: 'http://134.122.34.252:5000/screenshot?url=https://github.com/sarah-qhacks/testProject&path=client&name=testProject&message=${{github.event.head_commit.message}}&hash=${{github.sha}}'
           method: 'POST'
+        
 
