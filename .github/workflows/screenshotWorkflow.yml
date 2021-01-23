@@ -21,6 +21,6 @@ jobs:
       - name: Screenshot request
         uses: fjogeleit/http-request-action@master
         with:
-          url: 'http://134.122.34.252:5000/test?url=https://github.com&path=~/Documents'
+          url: 'http://134.122.34.252:5000/screenshot?url=https://github.com/sarah-qhacks/testProject&path=client&name=testProject'
           method: 'POST'
 
