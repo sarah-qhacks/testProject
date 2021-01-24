@@ -574,7 +574,7 @@ class App extends React.Component {
             <div className="">
                 
 
-                {/* <header className="header-area header-sticky">
+                <header className="header-area header-sticky">
                     <div className="container">
 
                         <div className="row">
@@ -595,7 +595,7 @@ class App extends React.Component {
                             </div>
                         </div>
                     </div>
-                </header> */}
+                </header>
 
                 <div className="welcome-area" id="welcome" >
 
@@ -618,7 +618,7 @@ class App extends React.Component {
                     </div>
                 </div>
 
-                {/* <section className="section home-feature white-bg">
+                <section className="section home-feature white-bg">
                     <div className="container white-bg">
                         <div className="row">
                             <div className="col-lg-12">
@@ -656,7 +656,7 @@ class App extends React.Component {
                             </div>
                         </div>
                     </div>
-                </section> */}
+                </section>
 
                 <section className="section home-feature ">
                     <div className=" ">
