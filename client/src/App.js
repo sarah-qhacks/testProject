@@ -11,7 +11,7 @@ import './assets/css/font-awesome.css';
 import Slider from "react-slick";
 //import "./slick-carousel/slick/slick.css"; 
 //import "./slick-carousel/slick/slick-theme.css";
-import food from "./assets/images/food.jpg";
+import food from "./assets/images/tableFood.jpg";
 import Sample from "./Login"
 import axios from 'axios';
 

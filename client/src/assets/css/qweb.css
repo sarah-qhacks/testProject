@@ -428,7 +428,7 @@ header
   
   border-radius: 40px;
   min-height: 60px;
-  background: #fff;
+  background: #ddea15;
 }
 
 .header-area .main-nav .logo {
@@ -710,7 +710,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/food.jpg);
+  background-image: url(../images/tableFood.jpg);
   opacity:0.9;
   
   background-position: center;
@@ -724,7 +724,7 @@ welcome
 .home-features {
   cursor: pointer;
   display: block;
-  background: #FFFFFF;
+  background: #c93648;
   
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
